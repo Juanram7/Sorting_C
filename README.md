@@ -4,5 +4,5 @@
 * Quick sort
 * Selection sort
 * Merge sort
-* Heap sort (not added yet)
+* Heap sort
 * Insertion sort (not added yet)
