@@ -1,9 +1,12 @@
 #include <stdio.h>
 /*
 Insertion algorithm
-- Searches for the min value
-- Place the value to the beginning of arr
-- And repeat until sorted in ascending order
+- Start with the second element
+- Essentially the arr is split into a sorted(1st element) and unsorted halves
+- The first element will be the sorted portion
+- Now compare the values in the unsorted to the sorted element and place it
+into its correct position shifting others if necessary
+- Continue to pick and compare the unsorted elements until it is sorted in ascending order
 */
 
 int main(){
