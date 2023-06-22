@@ -18,7 +18,6 @@ int main(){
     for(i = 0; i < count; i++){
         scanf("%d", &arr[i]);
     }
-
     for(i = 0; i < count - 1; i++){
         for(j = 0; j < count - i - 1; j++){
             if(arr[j] > arr[j + 1]){
